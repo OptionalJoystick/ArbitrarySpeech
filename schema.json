@@ -1,0 +1,78 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "arbitrary speech",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "UserCommandIntent",
+                    "slots": [
+                        {
+                            "name": "UserCommand",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "GPT three {UserCommand}",
+                        "body {UserCommand}",
+                        "all {UserCommand}",
+                        "ha {UserCommand}",
+                        "hey {UserCommand}",
+                        "yeah {UserCommand}",
+                        "um {UserCommand}",
+                        "hmm {UserCommand}",
+                        "oh {UserCommand}",
+                        "well {UserCommand}",
+                        "no {UserCommand}",
+                        "yes {UserCommand}",
+                        "so {UserCommand}",
+                        "odi {UserCommand}",
+                        "ok {UserCommand}"
+                    ]
+                },
+                {
+                    "name": "ClearContextIntent",
+                    "slots": [],
+                    "samples": [
+                        "start over",
+                        "clear context"
+                    ]
+                },
+                {
+                    "name": "SayAgainIntent",
+                    "slots": [],
+                    "samples": [
+                        "what was that",
+                        "what were you saying",
+                        "repeat one more time",
+                        "say that again",
+                        "what did you say",
+                        "what",
+                        "repeat",
+                        "say again"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
